@@ -1,7 +1,7 @@
-
 ## 标题
 > 在Markdown中，你只需要在文本前加上#即可，同理 你还可以增加二级标题、三级标题等等，可以到六级。只要增加#即可
 > ，标题字号相应降低即可。例如:
+
 ```
   > # 一级标题
   > ## 二季标题
@@ -39,9 +39,8 @@ Markdown标记的区块是使用类似email中>的引用方式，只需要在整
      > # This is a header
      > 1. This is the first list.
      > 2. This is the second list.
-     
+     > 
      ```
-     
 效果如下：
  > # This is a header
  > 1. This is the first list.
@@ -61,6 +60,7 @@ Markdown标记的区块是使用类似email中>的引用方式，只需要在整
   在Markdown中，可以使用*和_来表示斜体和加粗：
   ``` *Markdown*```  *Markdown*
   ``` **Markdown**``` *Markdown*
+
   ## 链接
   * 方括号显示说明，圆括号内显示网址，Markdown自动转化成链接，例如：
   ```[云开发平台](http://coding.net)```
@@ -70,18 +70,22 @@ Markdown标记的区块是使用类似email中>的引用方式，只需要在整
   ``` <http://coding.net>```
   效果如下：
   <http://coding.net>
+
   ## 列表
   1. **无序列表**： * + - 都可以实现
-  ``` * red
-      - green
-      + bule
-      ```
+```
+	* red
+    - green
+    + bule
+
+    ```
   效果如下：
   * red
   - green
   + bule
  2.  **有序列表**: 直接用数字加.
- ``` 1. red
+ ``` 
+     1. red
      2. green
      3. bule
      ```
@@ -92,11 +96,11 @@ Markdown标记的区块是使用类似email中>的引用方式，只需要在整
 
  3. 表格中使用引用要缩进>：
  ```
- * conding.net 的功能
-  > 代码托管平台
-  > 在线运营环境 
-  > 代码质量监控
-  > 项目平台管理
+ 	* conding.net 的功能
+ 	 > 代码托管平台
+ 	 > 在线运营环境 
+ 	 > 代码质量监控
+ 	 > 项目平台管理
  ```
  效果图如下：
  * Coding.net有以下功能：
@@ -106,6 +110,3 @@ Markdown标记的区块是使用类似email中>的引用方式，只需要在整
   >项目管理平台 
   
 ## 图片
-  
-  
- 
