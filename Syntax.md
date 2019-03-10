@@ -24,17 +24,15 @@ Markdown标记的区块是使用类似email中>的引用方式，只需要在整
   >> 这是第二级引用
   >
   > 回到第一级
-  >
-  
-  ```
+  >  
+```
   效果如下：
   > 这是第一级引用
   >> 这是第二级引用
   >
   > 回到第一级
   >
-  
-  * 引用区块可以使用其他Markdown语法，包括 标题 列表 代码区块等。
+* 引用区块可以使用其他Markdown语法，包括 标题 列表 代码区块等。
   ``` 
      > # This is a header
      > 1. This is the first list.
@@ -46,22 +44,21 @@ Markdown标记的区块是使用类似email中>的引用方式，只需要在整
  > 1. This is the first list.
  > 2. This is the second list.
  > 
- 
- ## 代码
- 只要你把你的代码包裹在```你就不需要通过无休止的所进来标记代码了。a，你可以指定一格可选得预言表示符，然
- 后我们就可以为他启用语着色了。举个例子，这样可以为一段Ruby代码着色：
- 
-  ```ruby
-  require 'redcarpet'
-	markdown = Redcarpet.new("Hello World")
-	puts markdown.to_html
-	```
-  ## 强调
+
+## 代码
+ 只要你把你的代码包裹在你就不需要通过无休止的所进来标记代码了。a，你可以指定一格可选得预言表示符，然
+ 后我们就可以为他启用语着色了。举个例子，这样可以为一段Ruby代码着色： 
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World")
+puts markdown.to_html
+```
+## 强调
   在Markdown中，可以使用*和_来表示斜体和加粗：
   ``` *Markdown*```  *Markdown*
   ``` **Markdown**``` *Markdown*
 
-  ## 链接
+## 链接
   * 方括号显示说明，圆括号内显示网址，Markdown自动转化成链接，例如：
   ```[云开发平台](http://coding.net)```
   效果如下
@@ -71,24 +68,23 @@ Markdown标记的区块是使用类似email中>的引用方式，只需要在整
   效果如下：
   <http://coding.net>
 
-  ## 列表
+## 列表
   1. **无序列表**： * + - 都可以实现
 ```
-	* red
-    - green
-    + bule
-
-    ```
-  效果如下：
-  * red
-  - green
-  + bule
+* red
+- green
++ bule
+```
+效果如下：
+* red
+- green
++ bule
  2.  **有序列表**: 直接用数字加.
  ``` 
-     1. red
-     2. green
-     3. bule
-     ```
+ 1. red
+ 2. green
+ 3. bule
+ ```
  效果如下：
  1. red
  2. green
@@ -104,9 +100,9 @@ Markdown标记的区块是使用类似email中>的引用方式，只需要在整
  ```
  效果图如下：
  * Coding.net有以下功能：
-	>代码托管平台  
-  >在线运行环境  
- 	>代码质量调控   
-  >项目管理平台 
+  > 代码托管平台  
+  > 在线运行环境  
+  > 代码质量调控   
+  > 项目管理平台 
   
 ## 图片
