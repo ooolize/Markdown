@@ -92,7 +92,7 @@ puts markdown.to_html
 
  3. 表格中使用引用要缩进>：
  ```
- 	* conding.net 的功能
+ * conding.net 的功能
  	 > 代码托管平台
  	 > 在线运营环境 
  	 > 代码质量监控
@@ -106,3 +106,5 @@ puts markdown.to_html
   > 项目管理平台 
   
 ## 图片
+## 页内跳转
+## 文字强调
